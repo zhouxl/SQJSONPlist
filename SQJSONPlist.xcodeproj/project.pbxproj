@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		741446C11C42526D007E4D69 /* Color.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 741446C01C42526D007E4D69 /* Color.geojson */; };
 		74C915491C42510B004DD9C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C915481C42510B004DD9C7 /* AppDelegate.swift */; };
 		74C9154B1C42510B004DD9C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C9154A1C42510B004DD9C7 /* ViewController.swift */; };
 		74C9154E1C42510B004DD9C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C9154C1C42510B004DD9C7 /* Main.storyboard */; };
 		74C915501C42510B004DD9C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C9154F1C42510B004DD9C7 /* Assets.xcassets */; };
 		74C915531C42510B004DD9C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C915511C42510B004DD9C7 /* LaunchScreen.storyboard */; };
+		74C9155B1C425136004DD9C7 /* SQJSONPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C9155A1C425136004DD9C7 /* SQJSONPlist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		741446C01C42526D007E4D69 /* Color.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Color.geojson; sourceTree = "<group>"; };
 		74C915451C42510B004DD9C7 /* SQJSONPlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQJSONPlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C915481C42510B004DD9C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74C9154A1C42510B004DD9C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		74C9154F1C42510B004DD9C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74C915521C42510B004DD9C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74C915541C42510B004DD9C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74C9155A1C425136004DD9C7 /* SQJSONPlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQJSONPlist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				74C915481C42510B004DD9C7 /* AppDelegate.swift */,
 				74C9154A1C42510B004DD9C7 /* ViewController.swift */,
+				74C9155A1C425136004DD9C7 /* SQJSONPlist.swift */,
+				741446C01C42526D007E4D69 /* Color.geojson */,
 				74C9154C1C42510B004DD9C7 /* Main.storyboard */,
 				74C9154F1C42510B004DD9C7 /* Assets.xcassets */,
 				74C915511C42510B004DD9C7 /* LaunchScreen.storyboard */,
@@ -125,6 +131,7 @@
 				74C915531C42510B004DD9C7 /* LaunchScreen.storyboard in Resources */,
 				74C915501C42510B004DD9C7 /* Assets.xcassets in Resources */,
 				74C9154E1C42510B004DD9C7 /* Main.storyboard in Resources */,
+				741446C11C42526D007E4D69 /* Color.geojson in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74C9155B1C425136004DD9C7 /* SQJSONPlist.swift in Sources */,
 				74C9154B1C42510B004DD9C7 /* ViewController.swift in Sources */,
 				74C915491C42510B004DD9C7 /* AppDelegate.swift in Sources */,
 			);
@@ -284,6 +292,7 @@
 				74C915591C42510B004DD9C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

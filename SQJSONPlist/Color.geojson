@@ -1,0 +1,45 @@
+ [
+  {
+  "title": "Red",
+  "color": "0xffebee"
+  },
+  {
+  "title": "Pink",
+  "color": "0xfce4ec"},
+  {
+  "title": "Purple",
+  "color": "0xf3e5f5"
+  },
+  {
+  "title": "Deep Purple",
+  "color": "0xede7f6"
+  },
+  {
+  "title": "Indigo",
+  "color": "0xe8eaf6"
+  },
+  {
+  "title": "Blue",
+  "color": "0xe3f2fd"
+  },
+  {
+  "title": "Light Blue",
+  "color": "0xe1f5fe"
+  },
+  {
+  "title": "Cyan",
+  "color": "0xe0f7fa"
+  },
+  {
+  "title": "Teal",
+  "color": "0xe0f2f1"
+  },
+  {
+  "title": "Green",
+  "color": "0xe8f5e9"
+  },
+  {
+  "title": "Light Green",
+  "color": "0xf1f8e9"
+  }
+]
